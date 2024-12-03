@@ -1,0 +1,5 @@
+set relativenumber number 
+set scrolloff=8
+set visual bell
+inoremap jk <Esc>
+set timeoutlen=250
