@@ -24,12 +24,16 @@ nnoremap <leader>{ ciw{}<Esc>P
 nnoremap <leader>} ciw{}<Esc>P
 nnoremap <leader>[ ciw[]<Esc>P
 nnoremap <leader>] ciw[]<Esc>P
+nnoremap <leader>" ciw""<Esc>P
+nnoremap <leader>' ciw''<Esc>P
 vnoremap <leader>( c()<Esc>P
 vnoremap <leader>) c()<Esc>P
 vnoremap <leader>{ c{}<Esc>P
 vnoremap <leader>} c{}<Esc>P
 vnoremap <leader>[ c[]<Esc>P
 vnoremap <leader>] c[]<Esc>P
+vnoremap <leader>" c""<Esc>P
+vnoremap <leader>' c''<Esc>P
 " clear highlighting
 nnoremap <leader>h :nohl<CR> 
 
