@@ -12,6 +12,7 @@ set relativenumber
 set number
 
 inoremap jk <Esc>
+nnoremap p p=']
 
 " open line
 nnoremap <Enter> A<Enter><Esc>
@@ -40,6 +41,7 @@ nnoremap <leader>h :nohl<CR>
 """ Rider
 if has('ide')
 	"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+	" Action List: https://gist.github.com/zchee/9c78f91cc5ad771c1f5d
 	"" Example: Map \b to toggle the breakpoint on the current line
 	" map \b <Action>(ToggleLineBreakpoint)
 	" map :action <action from action list> <CR> "CR means carriage return (enter)
