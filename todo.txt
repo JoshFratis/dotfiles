@@ -23,6 +23,7 @@
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
 - escape sets cursor to beginning of line 
+- is there a way to make the highlighting less opaque? probably a theme thing? 
 
 -- Theme --
 currently using OneDarkPro-- I like it
@@ -37,3 +38,6 @@ still isn't totally working, probably just needs time
 
 --- General --- 
 come up with mappings that actually work across IDEs for the essential common commands
+
+--- Unity ---
+have the inspector selector default to assets instead of scene? seems to be the case at work?
