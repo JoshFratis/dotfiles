@@ -16,8 +16,6 @@ inoremap jk <Esc>
 " format on paste
 nnoremap p p=']
 
-" open line
-nnoremap <Enter> A<Enter><Esc>
 " break line
 nnoremap <C-j> i<Enter><Esc>
 

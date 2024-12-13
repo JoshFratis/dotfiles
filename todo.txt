@@ -5,13 +5,13 @@
 - can i highlight all motions ?
 - any way to brighten line numbers?
 - wrap in opening/closing characters in visual line mode does not work
-- nnoremap Y y$
 - remap _ to motion to the beginning of the line-- could also just start using ^ for motion / movement (probably better solution) 
 	- nnoremap d_ d^
 	- nnoremap y_ y^
 	- nnoremap c_ c^
 
 --- Visual Studio ---
+- highlight color
 - enter normal mode after ctrl+/
 - ctrl M always goes backwards 
 - fix entering visual mode when using *, gd, ctrl M
@@ -36,8 +36,19 @@ still isn't totally working, probably just needs time
 - tab works weird in find references menu (takes 3 tabs to tab through one entry)
 - shortcut to go to documentation ?
 
+--- Unity ---
+have the inspector selector default to assets instead of scene? seems to be the case at work?
+
 --- General --- 
 come up with mappings that actually work across IDEs for the essential common commands
 
---- Unity ---
-have the inspector selector default to assets instead of scene? seems to be the case at work?
+--- Map ---
+-------------------------------------------------------------------------------------------------------------------------
+| Description		VS Command		Rider Command		Vim Command		Mapping			|
+-------------------------------------------------------------------------------------------------------------------------
+| New Line 		Edit.LineOpenBelow							Shift Enter		|
+| New Line Above 	Edit.LineOpenAbove							Ctrl Shift Enter 	|
+| Break Line		Edit.BreakLine					i<Enter><Esc>		Ctrl Enter, Ctrl J	|
+| Open Line											o			|
+| Open Line Above										O			|
+
