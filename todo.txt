@@ -5,16 +5,24 @@
 - can i highlight all motions ?
 - any way to brighten line numbers?
 - wrap in opening/closing characters in visual line mode does not work
+- nnoremap Y y$
+- remap _ to motion to the beginning of the line-- could also just start using ^ for motion / movement (probably better solution) 
+	- nnoremap d_ d^
+	- nnoremap y_ y^
+	- nnoremap c_ c^
 
 --- Visual Studio ---
-- enter normal mode after uncommenting 
+- enter normal mode after ctrl+/
 - ctrl M always goes backwards 
-- fix entering visual mode when using * or ctrl M
+- fix entering visual mode when using *, gd, ctrl M
 - add shift + enter insert line
 - increase brightness of cursor and line numbers 
+- I want ctrl+/ to insert "// " instead of "//"
 - autosave on navigate away ? 
 - add highlight yank 
 - add realtime replace
+- delete by tab / insert tabs not spaces with tab 
+- escape sets cursor to beginning of line 
 
 -- Theme --
 currently using OneDarkPro-- I like it
