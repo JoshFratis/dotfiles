@@ -41,6 +41,7 @@ have the inspector selector default to assets instead of scene? seems to be the 
 
 --- General --- 
 come up with mappings that actually work across IDEs for the essential common commands
+put mapping into a different txt file
 
 --- Map ---
 -------------------------------------------------------------------------------------------------------------------------
