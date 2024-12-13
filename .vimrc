@@ -1,4 +1,3 @@
-let mapleader = " "
 set scrolloff=20
 set timeoutlen=250
 set visualbell
@@ -12,6 +11,9 @@ set relativenumber
 set number
 
 inoremap jk <Esc>
+
+let mapleader = " "
+nnoremap <Space> <NOP>
 
 " format on paste
 nnoremap p p=']
@@ -39,6 +41,9 @@ vnoremap <leader>' c''<Esc>P
 
 " clear highlighting
 nnoremap <leader>h :nohl<CR> 
+
+" yank to end of line 
+nnoremap Y y$
 
 """ Rider
 if has('ide')
