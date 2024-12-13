@@ -1,0 +1,16 @@
+--- Vim --- 
+- add shift + enter insert line (add with vim for all editors)
+- unbind space from default behavior 
+- can i highlight all motions ?
+
+--- Visual Studio ---
+- enter normal mode after uncommenting 
+- ctrl M always goes backwards 
+- fix entering visual mode when using * or ctrl M
+- add shift + enter insert line
+- increase brightness of cursor and line numbers 
+- autosave on navigate away ? 
+- add highlight yank 
+
+-- Theme --
+still isn't totally working, probably just needs time 
