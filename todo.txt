@@ -17,6 +17,7 @@
 - add realtime replace
 
 -- Theme --
+currently using OneDarkPro-- I like it
 still isn't totally working, probably just needs time 
 
 --- Rider --- 
