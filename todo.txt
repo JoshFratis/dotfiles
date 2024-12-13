@@ -6,7 +6,7 @@
 --- Visual Studio ---
 - highlight color
 - any way to brighten current line number?
-- enter normal mode after ctrl+/
+- exit visual mode + enter normal mode after ctrl+/
 - ctrl M always goes backwards 
 - fix entering visual mode when using *, gd, ctrl M
 - add shift + enter insert line

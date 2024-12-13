@@ -65,28 +65,33 @@ if has('ide')
 endif
 
 """ Visual Studio
-if exists('g:vscode')
-	nnoremap <leader>r :vsc Refactor.Rename<CR>
+nnoremap <leader>r :vsc Refactor.Rename<CR>
 
-	map gd :vsc Edit.GoToDefinition<CR>
-	map gi :vsc Edit.GoToImplementation<CR>
-	map gr :vsc Edit.FindAllReferences<CR>
-	map gp :vsc Edit.PeekDefinition<CR>
+map gd :vsc Edit.GoToDefinition<CR>
+map gi :vsc Edit.GoToImplementation<CR>
+map gr :vsc Edit.FindAllReferences<CR>
+map gp :vsc Edit.PeekDefinition<CR>
 
-	map <C-l> :vsc Window.NextTab<CR>
-	map <C-h> :vsc Window.PreviousTab<CR>
-	map <C-T> :vsc Window.RestoreClosedTab<CR> 
-	map <C-w> :vsc Window.CloseDocumentWindow<CR> 
-	map <C-w> :vsc Window.CloseAllTabs<CR> 
+map <C-l> :vsc Window.NextTab<CR>
+map <C-h> :vsc Window.PreviousTab<CR>
+map <C-T> :vsc Window.RestoreClosedTab<CR> 
+map <C-w> :vsc Window.CloseDocumentWindow<CR> 
+map <C-w> :vsc Window.CloseAllTabs<CR> 
 
-	map <C-s> :vsc File.SaveAll<CR>
-	map <C-S> :vsc File.SaveAll<CR>
-	inoremap <C-s> <Esc>:vsc File.SaveAll<CR>a
-	inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
+map <C-s> :vsc File.SaveAll<CR>
+map <C-S> :vsc File.SaveAll<CR>
+inoremap <C-s> <Esc>:vsc File.SaveAll<CR>a
+inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
 
-	map <C-m> :vsc Edit.NextMethod<CR>
-	map <C-M> :vsc Edit.PreviousMethod<CR>
+map <C-m> :vsc Edit.NextMethod<CR>
+map <C-M> :vsc Edit.PreviousMethod<CR>
 
-	map <C-n> :vsc View.NextError<CR>
-	map <C-N> :vsc View.PreviousError<CR>
-endif
+map <C-n> :vsc View.NextError<CR>
+map <C-N> :vsc View.PreviousError<CR>
+
+vmap <C-_> :vsc Edit.ToggleLineComment<CR><Esc> 
+
+vmap <C-_> <Esc>aaaaaaaaaaa
+nmap <C-/> iaaaaaaaaaaa
+nmap <C-a> ibbbbbbbbbbbbbbb
+
