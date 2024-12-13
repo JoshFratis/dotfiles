@@ -3,10 +3,11 @@
 - wrap in opening/closing characters in visual line mode does not work
 
 --- Visual Studio ---
+- move mappings from vsvimrc to plain vs keyboard settings !!!
+
 - highlight color
 - current line color 
 - exit visual mode + enter normal mode after ctrl+/
-- ctrl M doesn't work, just add it to keyboard settings duh (and make handled by VS in VSVim settings) 
 - fix entering visual mode when using *, gd, ctrl M
 - I want ctrl+/ to insert "// " instead of "//"
 - autosave on navigate away ? 
