@@ -1,23 +1,19 @@
 --- Vim --- 
-- unbind space from default behavior 
 - can i highlight all motions ?
 - wrap in opening/closing characters in visual line mode does not work
 
 --- Visual Studio ---
 - highlight color
-- any way to brighten current line number?
+- current line color 
 - exit visual mode + enter normal mode after ctrl+/
-- ctrl M always goes backwards 
+- ctrl M doesn't work, just add it to keyboard settings duh (and make handled by VS in VSVim settings) 
 - fix entering visual mode when using *, gd, ctrl M
-- add shift + enter insert line
-- increase brightness of cursor and line numbers 
 - I want ctrl+/ to insert "// " instead of "//"
 - autosave on navigate away ? 
 - add highlight yank 
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
-- escape sets cursor to beginning of line 
-- is there a way to make the highlighting less opaque? probably a theme thing? 
+- fix escape sets cursor to beginning of line 
 
 -- Theme --
 currently using OneDarkPro-- I like it

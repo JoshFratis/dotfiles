@@ -1,2 +1,4 @@
 - In order to apply changes to VS, you need to restart the IDE. Might be able to source it. 
 - Can't seem to map '/' (with '/' or '_') at least in VS. 
+- Can't seem to escape visual mode after some commands in VS. 
+- Some commands in VS were working and now they are not. Seems like some key combos are not being handled by vsvim. But I should be able to just put those in keyboard config. 

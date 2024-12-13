@@ -1,8 +1,11 @@
--------------------------------------------------------------------------------------------------------------------------
-| Description		VS Command		Rider Command		Vim Command		Mapping			|
--------------------------------------------------------------------------------------------------------------------------
-| New Line 		Edit.LineOpenBelow							Shift Enter		|
-| New Line Above 	Edit.LineOpenAbove							Ctrl Shift Enter 	|
-| Break Line		Edit.BreakLine					i<Enter><Esc>		Ctrl Enter, Ctrl J	|
-| Open Line											o			|
-| Open Line Above										O			|
+---------------------------------------------------------------------------------------------------------------------------------
+| Description		VS Command			Rider Command		Vim Command		Mapping			|
+---------------------------------------------------------------------------------------------------------------------------------
+| New Line 		Edit.LineOpenBelow								Shift Enter		|
+| New Line Above 	Edit.LineOpenAbove								Ctrl Shift Enter 	|
+| Break Line		Edit.BreakLine						i<Enter><Esc>		Ctrl Enter, Ctrl J	|
+| Open Line												o			|
+| Open Line Above											O			|
+
+| Close Tab 		Edit.CloseDocumentWindow							Ctrl W			|
+| Close All Tabs	Edit.CloseAllDocuments								Ctrl Shift W		|
