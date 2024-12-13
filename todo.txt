@@ -1,7 +1,10 @@
 --- Vim --- 
 - add shift + enter insert line (add with vim for all editors)
+- <leader>u to swap case (is there a motion for single character?)
 - unbind space from default behavior 
 - can i highlight all motions ?
+- any way to brighten line numbers?
+- wrap in opening/closing characters in visual line mode does not work
 
 --- Visual Studio ---
 - enter normal mode after uncommenting 
@@ -11,6 +14,17 @@
 - increase brightness of cursor and line numbers 
 - autosave on navigate away ? 
 - add highlight yank 
+- add realtime replace
 
 -- Theme --
 still isn't totally working, probably just needs time 
+
+--- Rider --- 
+- add realtime replace
+- rename does not work
+- tab no longer works in the alt+enter menu
+- tab works weird in find references menu (takes 3 tabs to tab through one entry)
+- shortcut to go to documentation ?
+
+--- General --- 
+come up with mappings that actually work across IDEs for the essential common commands
