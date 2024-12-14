@@ -27,6 +27,8 @@ still isn't totally working, probably just needs time
 - tab no longer works in the alt+enter menu
 - tab works weird in find references menu (takes 3 tabs to tab through one entry)
 - shortcut to go to documentation ?
+- don't add default case when autofilling switch statements
+- automatically autofill switch statements when adding a parameter
 
 --- Unity ---
 have the inspector selector default to assets instead of scene? seems to be the case at work?
