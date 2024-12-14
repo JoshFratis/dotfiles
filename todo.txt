@@ -1,6 +1,7 @@
 --- Vim --- 
 - can i highlight all motions ?
 - wrap in opening/closing characters in visual line mode does not work
+- V should highlight to end of line
 
 --- Visual Studio ---
 - move mappings from vsvimrc to plain vs keyboard settings !!!

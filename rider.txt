@@ -1,0 +1,7 @@
+Settings
+- Editor
+	- Code Vision
+		- Enable Code Vision [ ] 
+- Languages & Frameworks
+	- Unity Engine
+		- Show gutter mark or Code Vision for implicit script usages: Never
