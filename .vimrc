@@ -45,9 +45,7 @@ vnoremap <leader>* c**<Esc>P
 " clear highlighting
 nnoremap <leader>h :nohl<CR> 
 
-" yank to end of line 
+" yank to end of line (like C and D)
 nnoremap Y y$
-
-" highlight to end of line 
-nnoremap V v$
-nnoremap vv V
+" highlight to end of line (use vv to preserve V to enter Visual Line)
+nnoremap vv v$
