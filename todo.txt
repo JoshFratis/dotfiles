@@ -2,6 +2,9 @@
 - can i highlight all motions ?
 - wrap in opening/closing characters in visual line mode does not work
 - V should highlight to end of line
+- paste and format should return cursor to paste position
+- <leader>h to clear highlighting moves the cursor forward one space and it's annoying-- can probably just move it back one space with h
+- need faster double press on hold
 
 --- Visual Studio ---
 - move mappings from vsvimrc to plain vs keyboard settings !!!
@@ -22,6 +25,9 @@ currently using OneDarkPro-- I like it
 still isn't totally working, probably just needs time 
 
 --- Rider --- 
+- shift+enter only working on BFG machine
+- add rider settings to dotfile repo and apply scripts
+- somehow record all setting changes from defaults in this repo
 - add realtime replace
 - rename does not work
 - brighten line numbers

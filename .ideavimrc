@@ -15,3 +15,5 @@ source ~/.vimrc
 Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
 Plug 'tpope/vim-commentary'
+" Show Marks
+Plug 'kshenoy/vim-signature'

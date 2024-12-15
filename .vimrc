@@ -16,7 +16,8 @@ let mapleader = " "
 nnoremap <Space> <NOP>
 
 " format on paste
-nnoremap p p=']
+" xnoremap p p=']
+" nnoremap <leader>= 
 
 " break line
 nnoremap <C-j> i<Enter><Esc>
@@ -46,3 +47,7 @@ nnoremap <leader>h :nohl<CR>
 
 " yank to end of line 
 nnoremap Y y$
+
+" highlight to end of line 
+nnoremap V v$
+nnoremap vv V
