@@ -6,7 +6,8 @@ source ~/.vimrc
 nnoremap <leader>r :vsc Refactor.Rename<CR>
 
 " Navigate
-map gd :vsc Edit.GoToDefinition<CR>
+unmap gd
+"map gd :vsc Edit.GoToDefinition<CR><C-c>
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
@@ -26,20 +27,4 @@ inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
 map <C-n> :vsc View.NextError<CR>
 map <C-N> :vsc View.PreviousError<CR>
 
-
-"" ONLY WORK BECAUSE OF KEYBOARD MAPPING
-
-" Close Tab 
-map <C-w> :vsc Window.CloseDocumentWindow<CR> 
-map <C-W> :vsc Window.CloseAllDocuments<CR> 
-
-
-"" DONT WORK
-
-" Navigate Method 
-map <C-m> :vsc Edit.NextMethod<CR>
-map <C-M> :vsc Edit.PreviousMethod<CR>
-
-" Toggle Comment 
-map <leader>c :vsc Edit.ToggleLineComment <Esc> <CR>
-
+map <leader>t aaaaaaaaaaaaaaaaaaaa
