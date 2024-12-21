@@ -2,6 +2,8 @@ Settings
 - Editor
 	- Code Vision
 		- Enable Code Vision [ ] 
+	- Inlay Hints
+		- Default Visibility: Push-to-Hint
 - Languages & Frameworks
 	- Unity Engine
 		- Show gutter mark or Code Vision for implicit script usages: Never
