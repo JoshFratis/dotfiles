@@ -14,6 +14,7 @@ inoremap jk <Esc>
 
 let mapleader = " "
 nnoremap <Space> <NOP>
+unmap <Shift><Enter>
 
 " format on paste
 " xnoremap p p=']
@@ -21,6 +22,10 @@ nnoremap <Space> <NOP>
 
 " break line
 nnoremap <C-j> i<Enter><Esc>
+
+" new line 
+nnoremap <S-Enter> o<Esc>
+inoremap <S-Enter> <Esc>o
 
 " surround
 nnoremap <leader>( ciw()<Esc>P
