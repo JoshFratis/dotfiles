@@ -1,24 +1,27 @@
 --- Vim --- 
 - can i highlight all motions ?
+- paste and format should return cursor to paste position
+- need faster double press on hold
+- need incremental search not to happen if I'm in visual mode (when using :s)
+- command for deleting / yanking everything on the line, but not the entire line itself (for pasting on another line without replacing it)
+
+-- Known Issues --
 - wrap in opening/closing characters in visual line mode does not work
 	- will not work in VsVim
 	- https://vi.stackexchange.com/questions/26086/mappings-for-three-different-visual-modes
 	- https://stackoverflow.com/questions/25289065/vim-different-maps-in-different-visual-modes
-- paste and format should return cursor to paste position
-- <leader>h to clear highlighting moves the cursor forward one space and it's annoying-- can probably just move it back one space with h
-- need faster double press on hold
-- need incremental search not to happen if I'm in visual mode (when using :s)
-- command for deleting / yanking everything on the line, but not the entire line itself (for pasting on another line without replacing it)
 
 --- Visual Studio ---
 - highlight color
 - current line color 
 - exit visual mode + enter normal mode after ctrl+/
-- fix entering visual mode when using gd
 - add highlight yank 
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
 - fix escape sets cursor to beginning of line 
+
+-- Known Issues --
+gd enters visual mode. Remapping to vsc or adding <Esc> after gd does not change behavior. 
 
 -- Theme --
 currently using OneDarkPro-- I like it

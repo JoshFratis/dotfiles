@@ -26,4 +26,8 @@ inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
 map <C-n> :vsc View.NextError<CR>
 map <C-N> :vsc View.PreviousError<CR>
 
-map <leader>t bbbbbbbbbbbbbbbbbbbbbbbb
+" Fix Enter Visual Mode on Go to Definition
+nnoremap gd :vsc Edit.GoToDefinition<CR><Esc>
+
+" Test
+map <leader>t Accccccccccccccccccccc
