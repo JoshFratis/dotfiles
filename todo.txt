@@ -1,6 +1,9 @@
 --- Vim --- 
 - can i highlight all motions ?
 - wrap in opening/closing characters in visual line mode does not work
+	- will not work in VsVim
+	- https://vi.stackexchange.com/questions/26086/mappings-for-three-different-visual-modes
+	- https://stackoverflow.com/questions/25289065/vim-different-maps-in-different-visual-modes
 - paste and format should return cursor to paste position
 - <leader>h to clear highlighting moves the cursor forward one space and it's annoying-- can probably just move it back one space with h
 - need faster double press on hold
@@ -28,10 +31,10 @@ still isn't totally working, probably just needs time
 - add realtime replace
 - rename does not work
 - brighten line numbers
-- tab no longer works in the alt+enter menu
+- tab no longer works in the alt + enter menu
 - tab works weird in find references menu (takes 3 tabs to tab through one entry)
 - shortcut to go to documentation ?
-- don't add default case when autofilling switch statements
+- don't add default case when auto filling switch statements
 - automatically autofill switch statements when adding a parameter
 
 --- Unity ---

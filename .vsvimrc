@@ -6,7 +6,6 @@ source ~/.vimrc
 nnoremap <leader>r :vsc Refactor.Rename<CR>
 
 " Navigate
-unmap gd
 "map gd :vsc Edit.GoToDefinition<CR><C-c>
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
@@ -27,4 +26,4 @@ inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
 map <C-n> :vsc View.NextError<CR>
 map <C-N> :vsc View.PreviousError<CR>
 
-map <leader>t aaaaaaaaaaaaaaaaaaaa
+map <leader>t bbbbbbbbbbbbbbbbbbbbbbbb

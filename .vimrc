@@ -14,7 +14,6 @@ inoremap jk <Esc>
 
 let mapleader = " "
 nnoremap <Space> <NOP>
-unmap <Shift><Enter>
 
 " format on paste
 " xnoremap p p=']
@@ -37,6 +36,13 @@ nnoremap <leader>] ciw[]<Esc>P
 nnoremap <leader>" ciw""<Esc>P
 nnoremap <leader>' ciw''<Esc>P
 nnoremap <leader>* c**<Esc>P
+
+" Because vsvim doesn't support expressions, 
+" I can't differentiate between the three different visual modes. 
+" Because yanking and pasting works differently between visual modes, 
+" surrounding can only work in one. 
+" For flexibility, surrounding is built for visual mode. 
+" To surround in visual line mode, just highlight using visual mode. 
 vnoremap <leader>( c()<Esc>P
 vnoremap <leader>) c()<Esc>P
 vnoremap <leader>{ c{}<Esc>P
@@ -47,6 +53,7 @@ vnoremap <leader>" c""<Esc>P
 vnoremap <leader>' c''<Esc>P
 vnoremap <leader>* c**<Esc>P
 
+
 " clear highlighting
 nnoremap <leader>h :nohl<CR> 
 
@@ -54,3 +61,7 @@ nnoremap <leader>h :nohl<CR>
 nnoremap Y y$
 " highlight to end of line (use vv to preserve V to enter Visual Line)
 nnoremap vv v$
+
+test test test
+test test test
+()
