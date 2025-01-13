@@ -11,17 +11,6 @@ map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
 
-" Navigate Tabs - now handled with shortcuts
-" map <C-l> :vsc Window.NextTab<CR>
-" map <C-h> :vsc Window.PreviousTab<CR>
-" map <C-T> :vsc Window.RestoreClosedTab<CR> 
-
-" Save - now handled with shortcuts
-" map <C-s> :vsc File.SaveAll<CR>
-" map <C-S> :vsc File.SaveAll<CR>
-" inoremap <C-s> <Esc>:vsc File.SaveAll<CR>a
-" inoremap <C-S> <Esc>:vsc File.SaveAll<CR>a
-
 " Navigate Error 
 map <C-n> :vsc View.NextError<CR>
 map <C-N> :vsc View.PreviousError<CR>

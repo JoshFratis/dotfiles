@@ -14,11 +14,16 @@
 --- Visual Studio ---
 - highlight color
 - current line color 
-- exit visual mode + enter normal mode after ctrl+/
+- ctrl+/ visual mode : enter normal mode
+- crtl+/ normal mode : move down a line
 - add highlight yank 
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
 - fix escape sets cursor to beginning of line 
+- close tab shortcut if it exists 
+- close tab with ctrl+w / alt+w does not work 
+- change F2 to next error, Shift F2 to prev error
+	try to set up a vim binding for this between VS and Rider
 
 -- Known Issues --
 gd enters visual mode. Remapping to vsc or adding <Esc> after gd does not change behavior. 
@@ -42,6 +47,9 @@ still isn't totally working, probably just needs time
 
 --- Unity ---
 have the inspector selector default to assets instead of scene? seems to be the case at work?
+
+--- VSCode ---
+apply vimrc ! 
 
 --- General --- 
 come up with mappings that actually work across IDEs for the essential common commands
