@@ -1,5 +1,6 @@
 --- Vim --- 
-- can i highlight all motions ?
+- add shortcuts interacting with particular registers (0, _, .)
+- can i highlight all motions ? maybe an IDE extension
 - paste and format should return cursor to paste position
 - need faster double press on hold
 - need incremental search not to happen if I'm in visual mode (when using :s)
@@ -20,17 +21,13 @@
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
 - fix escape sets cursor to beginning of line 
-- change F2 to next error, Shift F2 to prev error
-	try to set up a vim binding for this between VS and Rider
 - ctrl / highlights too >:
-- shift P in visual mode doesn't keep the yanked text, it re-yanks whatever is highlighted. idk if that's expected
 
 -- Known Issues --
 gd enters visual mode. Remapping to vsc or adding <Esc> after gd does not change behavior. 
 
 -- Theme --
-currently using OneDarkPro-- I like it
-still isn't totally working, probably just needs time 
+
 
 --- Rider --- 
 - shift+enter only working on BFG machine
@@ -47,9 +44,10 @@ still isn't totally working, probably just needs time
 - don't add deafault stuff to monobehavior 
 - show marks in sidebar like in VSVim? 
 - add alt+j and alt+k to tab through suggestions (i'm now used to VS :skullemoji)
+- same for alt+n and alt+m to move between errors and methods
 
 --- Unity ---
-have the inspector selector default to assets instead of scene? seems to be the case at work?
+
 
 --- VSCode ---
 apply vimrc ! 

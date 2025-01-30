@@ -19,4 +19,6 @@
     so that the unmodified y/d/x/p commands can copy/cut/paste to/from the system clipboard, 
     add 'set clipboard-unnamed' to your vimrc. 
 
-    
+-   Deleting or changing to the black hole register _ will not save anything to any register. 
+-   You can use this to paste over text without overwriting the last yanked text, 
+    allowing you to paste yanked text multiple times. 
