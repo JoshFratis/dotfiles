@@ -11,10 +11,6 @@ map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
 
-" Navigate Error 
-map <C-n> :vsc View.NextError<CR>
-map <C-N> :vsc View.PreviousError<CR>
-
 " Fix Enter Visual Mode on Go to Definition
 nnoremap gd :vsc Edit.GoToDefinition<CR><Esc>
 

@@ -1,2 +1,5 @@
 - In order to apply changes to VS, you need to restart the IDE or source it
 - Can't seem to escape visual mode after some commands in VS. 
+
+
+- 

@@ -1,0 +1,22 @@
+-   To interact with a register, use "<register name><command> 
+-   To paste text from a register while in insert mode, use Ctrl+R followed by the register name.
+
+-   The 0 register stores the last yanked text (not deleted, cut, or pasted). 
+-   To paste from the 0 register, use "0p
+-   While in insert mode, you can quickly paste the text you just yanked using Ctrl-R 0
+
+-   Registers 1-9 store a history of entire lines cut (cc) or deleted (dd). 
+    The most recently cut / deleted line is stored in register 1. 
+
+-   The - register stores the last deleted text shorter than one line (diw). 
+
+-   The . register stores the last inserted text.
+
+-   The * and + registers are connected to the system clipboard.
+    Text copied outside of Vim with Ctrl+C is added. 
+    Text can be yanked to the registers with "+yy and pasted outside of Vim with Ctrl+V. 
+-   To connect the unnamed register to the system clipboard, 
+    so that the unmodified y/d/x/p commands can copy/cut/paste to/from the system clipboard, 
+    add 'set clipboard-unnamed' to your vimrc. 
+
+    

@@ -2,5 +2,8 @@ Important Keyboard Mappings
 - Navigate Suggestions 
     - Edit.LineUp - Alt+K
     - Edit.LineDown - Alt+J
+- Document.Close 
+- NextMethod / PreviousMethod 
+- NextError / PreviousError 
 
 To export settings, use Tools > Import and Export Settings
