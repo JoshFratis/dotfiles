@@ -6,4 +6,17 @@ Important Keyboard Mappings
 - NextMethod / PreviousMethod 
 - NextError / PreviousError 
 
+Important Colors
+- Highlight Selected Line
+- Comment 
+- Selected Text 
+    - Inactive Selected Text 
+- Line Number 
+
+- Active Statement ? 
+- Auto Completed Brace ?
+- Comment Highlight ? 
+- Highlighted Definition ? 
+- Highlighted Reference ? 
+
 To export settings, use Tools > Import and Export Settings
