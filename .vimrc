@@ -61,3 +61,7 @@ nnoremap <leader>h :nohl<CR>h
 nnoremap Y y$
 " highlight to end of line (use vv to preserve V to enter Visual Line)
 nnoremap vv v$
+
+" paste last yanked text 
+nnoremap <leader>p "0p
+nnoremap <leader>P "0P
