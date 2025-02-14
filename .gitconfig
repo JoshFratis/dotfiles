@@ -1,0 +1,4 @@
+[alias]
+    alias-test = status
+    # branch-clean-test = branch -vv | Select-String "origin" | Select-String -NotMatch "ahead|behind" | ForEach-Object { ($_ -split '\s+')[1] } | Select-String -NotMatch “development|staging|production”
+    # branch-clean = branch -vv | Select-String "origin" | Select-String -NotMatch "ahead|behind" | ForEach-Object { ($_ -split '\s+')[1] } | Select-String -NotMatch “development|staging|production” | ForEach-Object { git branch -D $_ }
