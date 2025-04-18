@@ -15,4 +15,4 @@ map gp :vsc Edit.PeekDefinition<CR>
 nnoremap gd :vsc Edit.GoToDefinition<CR><Esc>
 
 " Test
-map <leader>t Accccccccccccccccccccc
+map <leader>t Atest-one

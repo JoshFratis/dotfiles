@@ -65,3 +65,7 @@ nnoremap vv v$
 " paste last yanked text 
 nnoremap <leader>p "0p
 nnoremap <leader>P "0P
+
+" copy to / paste from system clipboard register
+noremap <leader>c "+y
+noremap <leader>v "+p
