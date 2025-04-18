@@ -17,3 +17,5 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
 " Show Marks
 Plug 'kshenoy/vim-signature'
+
+nmap <space>ra :action RenameElement<CR>
