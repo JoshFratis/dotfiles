@@ -1,0 +1,22 @@
+Important Keyboard Mappings
+- Navigate Suggestions 
+    - Edit.LineUp - Alt+K
+    - Edit.LineDown - Alt+J
+- Document.Close 
+- NextMethod / PreviousMethod 
+- NextError / PreviousError 
+
+Important Colors
+- Highlight Selected Line
+- Comment 
+- Selected Text 
+    - Inactive Selected Text 
+- Line Number 
+
+- Active Statement ? 
+- Auto Completed Brace ?
+- Comment Highlight ? 
+- Highlighted Definition ? 
+- Highlighted Reference ? 
+
+To export settings, use Tools > Import and Export Settings

@@ -1,46 +1,56 @@
 --- Vim --- 
-- can i highlight all motions ?
-- wrap in opening/closing characters in visual line mode does not work
-- V should highlight to end of line
+- add shortcuts interacting with particular registers (0, _, .)
+- can i highlight all motions ? maybe an IDE extension
 - paste and format should return cursor to paste position
-- <leader>h to clear highlighting moves the cursor forward one space and it's annoying-- can probably just move it back one space with h
 - need faster double press on hold
 - need incremental search not to happen if I'm in visual mode (when using :s)
 - command for deleting / yanking everything on the line, but not the entire line itself (for pasting on another line without replacing it)
 
---- Visual Studio ---
-- move mappings from vsvimrc to plain vs keyboard settings !!!
+-- Known Issues --
+- wrap in opening/closing characters in visual line mode does not work
+	- will not work in VsVim
+	- https://vi.stackexchange.com/questions/26086/mappings-for-three-different-visual-modes
+	- https://stackoverflow.com/questions/25289065/vim-different-maps-in-different-visual-modes
 
+--- Visual Studio ---
 - highlight color
 - current line color 
-- exit visual mode + enter normal mode after ctrl+/
-- fix entering visual mode when using *, gd, ctrl M
-- I want ctrl+/ to insert "// " instead of "//"
-- autosave on navigate away ? 
+- ctrl+/ visual mode : enter normal mode
+- crtl+/ normal mode : move down a line
 - add highlight yank 
 - add realtime replace
 - delete by tab / insert tabs not spaces with tab 
 - fix escape sets cursor to beginning of line 
+- ctrl / highlights too >:
+
+-- Known Issues --
+gd enters visual mode. Remapping to vsc or adding <Esc> after gd does not change behavior. 
 
 -- Theme --
-currently using OneDarkPro-- I like it
-still isn't totally working, probably just needs time 
+
 
 --- Rider --- 
 - shift+enter only working on BFG machine
 - add rider settings to dotfile repo and apply scripts
 - somehow record all setting changes from defaults in this repo
 - add realtime replace
-- rename does not work
+- <leader>r rename does not work
 - brighten line numbers
-- tab no longer works in the alt+enter menu
+- tab no longer works in the alt + enter menu
 - tab works weird in find references menu (takes 3 tabs to tab through one entry)
 - shortcut to go to documentation ?
-- don't add default case when autofilling switch statements
+- don't add default case when auto filling switch statements
 - automatically autofill switch statements when adding a parameter
+- don't add deafault stuff to monobehavior 
+- show marks in sidebar like in VSVim? 
+- add alt+j and alt+k to tab through suggestions (i'm now used to VS :skullemoji)
+- same for alt+n and alt+m to move between errors and methods
 
 --- Unity ---
-have the inspector selector default to assets instead of scene? seems to be the case at work?
+
+
+--- VSCode ---
+apply vimrc ! 
 
 --- General --- 
 come up with mappings that actually work across IDEs for the essential common commands
