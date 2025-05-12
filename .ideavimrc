@@ -19,3 +19,11 @@ Plug 'tpope/vim-commentary'
 Plug 'kshenoy/vim-signature'
 
 nmap <space>ra :action RenameElement<CR>
+nnoremap <A-n> :action GotoNextError<CR>
+nnoremap <A-N> :action GotoPreviousError<CR>
+nmap <A-l> <Action>(NextTab)
+nmap <A-h> <Action>(PreviousTab)
+nmap <A-w> <Action>(CloseEditor)
+nmap <A-S-w> <Action>(CloseAllEditors)
+nmap <A-S-C-w> <Action>(CloseAllButThis)
+
