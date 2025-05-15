@@ -26,4 +26,5 @@ nmap <A-h> <Action>(PreviousTab)
 nmap <A-w> <Action>(CloseEditor)
 nmap <A-S-w> <Action>(CloseAllEditors)
 nmap <A-S-C-w> <Action>(CloseAllButThis)
-
+nmap <C-s> <Action>(SaveAll)
+imap <C-s> <Action>(SaveAll)   

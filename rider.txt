@@ -7,3 +7,6 @@ Settings
 - Languages & Frameworks
 	- Unity Engine
 		- Show gutter mark or Code Vision for implicit script usages: Never
+- Keymap
+	- Up: Alt-J
+	- Down: Alt-K
